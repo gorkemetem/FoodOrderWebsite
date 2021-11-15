@@ -1,0 +1,300 @@
+header, section, footer, aside, nav, figure, figcaption{
+    display: block;
+}
+
+body {
+    color: #666666;
+    background-color: #F8EFBA;
+    background-position: center;
+    font-family: Georgia, Times, serif;
+    line-height: 1.4em;
+    margin: 0px;
+}
+
+.page {
+    width: 98%;
+    margin: 10px auto 10px auto;
+    background-color: #F8EFBA;
+}
+
+.page ul li a{
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 50px;
+    width: 940px;
+    height: 130px;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: none;
+}
+
+nav, footer {
+    clear: both;
+    color: #ffffff;
+    background-color: #2f3640;
+    height: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    border-radius: 10px;
+}
+nav ul {
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+}
+nav li {
+    display: inline;
+    margin-right: 40px;
+}
+nav li a {
+    color: #ffffff;
+}
+nav li a:hover, nav li a.current {
+    color: #e84118;
+}
+
+section.courses {
+    float: left;
+    width: 1050px; 
+}
+
+article {
+    clear: both;
+    float: left;
+    width: 700px;
+    height: 200px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left: 150px;
+    display: inline;
+    text-align: center;
+}
+
+article a:hover{
+    color: chartreuse;
+}
+
+.bir{
+    margin-top: 85px;
+    margin-right: 100px;
+}
+
+footer {
+    height: 150px;
+    font-size: 80%;
+    padding: 4px 0px 0px 20px;
+    text-align: center;
+}
+
+.alt{
+    width: 100%;
+}
+
+.hakkımızda{
+    margin-top: 120px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-primary{
+    background-color: #6ab04c;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #badc58;
+}
+
+.btn-secondary{
+    background-color: #4cd137;
+    padding: 1%;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    background-color: #44bd32;
+}
+
+.btn-third{
+    padding: 3px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-weight: bold;
+    margin-right: 23px;
+}
+.btn-third:hover{
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.food-search{
+    margin-top: 60px;
+    background-color: #F8EFBA;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1% 0;
+}
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.img-responsive{
+    width: 100%;
+}
+.img-responsive2{
+    width: 180px;
+    height: 180px;
+    margin-left: 170px;
+}
+.img-responsive3{
+    width: 180px;
+    height: 180px;
+    margin-left: 192px;
+}
+.img-curve{
+    border-radius: 15px;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+.text-black{
+    color: black;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+.categories{
+    padding: 1% 0;
+}
+
+.box-3{
+    width: 29%;
+    float: left;
+    margin: 2%;
+}
+
+.float-container{
+    position: relative;
+}
+.float-text{
+    bottom: 350px;
+    left: 29%;
+    width: fit-content;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    float: inline-end; 
+}
+
+.food-menu{
+    background-color: #F8EFBA;
+    padding: 1% 0;
+    margin-left: 10px;
+}
+.food-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.food-menu-img{
+    width: 20%;
+    float: left;
+}
+.food-menu-desc{
+    width: 70%;
+    height: 8%;
+    float: left;
+    margin-left: 15%;
+    text-align: center;
+}
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.food-detail{
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+.success{
+    padding: 2%;
+    color: green;
+}
+.error{
+    padding: 2%;
+    color: red;
+}
+
+
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+.social ul{
+    list-style-type: none;
+    margin-right: 82px;
+    
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+.copy{
+    margin-right: 42px;
+}
+

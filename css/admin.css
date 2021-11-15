@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.tbl-full{
+    width: 100%;
+}
+
+.tbl-addadmin{
+    width: 30%;
+    padding: 1%;
+    margin: 1% 0;
+}
+
+.btn-primary{
+    background-color: white;
+    padding: 1%;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color: #e84118;
+}
+
+.btn-secondary{
+    background-color: #4cd137;
+    padding: 1%;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bold;
+}
+
+.btn-secondary:hover{
+    background-color: #44bd32;
+}
+
+.btn-delete{
+    background-color: #ff7675;
+    padding: 1%;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bold;
+}
+
+.btn-delete:hover{
+    background-color: #d63031;
+}
+
+.success{
+    color: #009432;
+    margin-bottom: 2%;
+}
+.error{
+    color: #EA2027;
+    margin-bottom: 2%;
+}
+
+table{
+    padding: 2%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+}
+
+table tr td{
+    padding: 2%;
+}
+
+.menu{
+    border-bottom: 1px solid olive;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #e84118;
+}
+
+.menu ul li a:hover{
+    color: #2f3640;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+
+.main{
+    background-color: #7f8fa6;
+    padding: 50px 0;
+}
+
+.boxes{
+    width: 18%;
+    background-color: wheat;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+.footer{
+    background-color: #2f3640;
+    color: white;
+}
+
+.login{
+    width: 30%;
+    border: 1px solid black;
+    margin: 5% auto;
+    padding: 2%;
+    background-color: #7f8fa6;
+}

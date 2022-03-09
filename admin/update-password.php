@@ -105,7 +105,7 @@
 
                             else{
                                 $_SESSION['user-not-found'] = "<div class='error'> User Not Found. </div>";
-                                header('location:'.SITEURL.'admin/manage-admin.php');
+                                header('location:'.SITEURL.'admin/manage-admin.php'); 
                             }
 
                     }

@@ -3,7 +3,7 @@
         include('../config/constans.php');
 
          $id = $_GET['id'];
-         $sql = "DELETE FROM tbl_admin WHERE id=$id";
+         $sql = "DELETE FROM tbl_admin WHERE id=$id"; 
          $res = mysqli_query($conn,$sql);
    
          if($res==true){

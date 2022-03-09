@@ -58,7 +58,7 @@
 
 <?php 
 
-        if(isset($_POST['submit'])){
+        if(isset($_POST['submit'])){ 
             
             $username = $_POST['username'];
             $password = md5($_POST['password']);

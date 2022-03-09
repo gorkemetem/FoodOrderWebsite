@@ -14,7 +14,7 @@
     
 
     <section class="food-menu">
-        <div class="container">
+        <div class="container"> 
             <h2 class="text-center">Food Menu</h2>
 
                 <?php 

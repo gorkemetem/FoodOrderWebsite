@@ -1,6 +1,6 @@
 <?php 
 
-    include('../config/constans.php'); 
+    include('../config/constans.php');  
     include('login-check.php');
     
 ?>

@@ -4,7 +4,7 @@
 
          <div class="wrapper">
 
-             <h1>Dashboard</h1>
+             <h1>Dashboard</h1> 
              <br><br><br>
 
                    <?php

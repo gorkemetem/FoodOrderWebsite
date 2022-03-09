@@ -113,7 +113,7 @@
                     }
                    
 
-                    $sql = "INSERT INTO tbl_category SET
+                    $sql = "INSERT INTO tbl_category SET 
                             title = '$title',
                             image_name = '$image_name',
                             featured = '$featured',

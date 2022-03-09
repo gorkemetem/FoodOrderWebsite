@@ -15,7 +15,7 @@
 
                     if($count>0){
 
-                        while($row=mysqli_fetch_assoc($res)){
+                        while($row=mysqli_fetch_assoc($res)){ 
 
                             $id = $row['id'];
 							$title = $row['title'];

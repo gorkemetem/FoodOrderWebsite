@@ -4,7 +4,7 @@
     <div class="main">
         <div class="wrapper">
 
-            <h1>Add Food</h1>
+            <h1>Add Food</h1> 
             <br><br>
 
                 <?php 

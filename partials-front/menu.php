@@ -20,7 +20,7 @@
 		footer{
 			background-image: url("images/footer.jpg");
 		}
-
+ 
     </style>
 
 </head>

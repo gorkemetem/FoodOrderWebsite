@@ -11,4 +11,4 @@
 
     <br><br><br><br>
 
-<?php include('partials-front/footer.php'); 
+<?php include('partials-front/footer.php');  

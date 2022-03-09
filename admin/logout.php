@@ -2,7 +2,7 @@
 
     include('../config/constans.php'); 
 
-    session_destroy();
+    session_destroy(); 
     header('location:'.SITEURL.'admin/login.php');
 
 ?>

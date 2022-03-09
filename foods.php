@@ -76,7 +76,7 @@
 
 						}
 						else{
-							echo "<div class='error'> Error. </div>";
+							echo "<div class='error'> Error. </div>"; 
 						}
 						
 						

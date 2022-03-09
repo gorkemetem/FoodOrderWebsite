@@ -2,7 +2,7 @@
 
 <div class="main">
   <div class="wrapper">
-        <h1>Add Admin</h1>
+        <h1>Add Admin</h1> 
 
               <?php
                       if(isset($_SESSION['add'])){

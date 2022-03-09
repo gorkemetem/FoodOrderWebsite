@@ -12,7 +12,7 @@
 
         }
         else{
-            header('location:'.SITEURL);
+            header('location:'.SITEURL); 
         }
     
     ?>

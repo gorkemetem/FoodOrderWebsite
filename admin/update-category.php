@@ -192,7 +192,7 @@
                               else{
 
                                     $_SESSION['update'] = "<div class='error'> Category Failed To Added Category. </div>";
-                                    header('location:'.SITEURL.'admin/manage-category.php');
+                                    header('location:'.SITEURL.'admin/manage-category.php'); 
                               }
 
 

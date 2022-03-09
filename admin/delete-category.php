@@ -19,7 +19,7 @@
             }
         }
 
-        $sql = "DELETE FROM tbl_category WHERE id=$id";
+        $sql = "DELETE FROM tbl_category WHERE id=$id"; 
         $res = mysqli_query($conn, $sql);
 
         if($res==true){

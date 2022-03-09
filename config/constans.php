@@ -9,6 +9,6 @@
         define('DB_NAME','food-order');
 
         $conn = mysqli_connect('localhost','root','');
-        $db_select = mysqli_select_db($conn,'food-order');
+        $db_select = mysqli_select_db($conn,'food-order'); 
 
 ?>

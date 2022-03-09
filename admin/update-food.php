@@ -243,7 +243,7 @@
     </div>
 </div>
 
-<?php include('partials/footer.php'); ?>
+<?php include('partials/footer.php'); ?> 
 <?php ob_flush(); ?>
 
 

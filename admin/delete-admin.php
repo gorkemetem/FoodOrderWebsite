@@ -1,15 +1,11 @@
 <?php 
-
-       
+    
         include('../config/constans.php');
 
          $id = $_GET['id'];
-
          $sql = "DELETE FROM tbl_admin WHERE id=$id";
-
          $res = mysqli_query($conn,$sql);
-
-         
+   
          if($res==true){
                 $_SESSION['delete'] = " <div class='success'> Admin deleted Suscessfully. </div>";
                 header('location:'.SITEURL.'admin/manage-admin.php');

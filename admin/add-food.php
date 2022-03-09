@@ -57,9 +57,7 @@
                                     <?php 
                                     
                                         $sql = "SELECT * FROM tbl_category WHERE active = 'Yes' ";
-
                                         $res = mysqli_query($conn, $sql);
-
                                         $count = mysqli_num_rows($res);
 
                                         if($count>0){
@@ -147,13 +145,9 @@
                            if($image_name != ""){
 
                                $ext = end(explode('.', $image_name));
-
                                $image_name = "food-name-".rand(0000,9999).".".$ext;
-
                                $src = $_FILES['image']['tmp_name'];
-
                                $dst = "../images/food/".$image_name;
-
                                $upload = move_uploaded_file($src, $dst);
 
                                if($upload==false){

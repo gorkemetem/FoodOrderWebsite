@@ -1,24 +1,17 @@
 <?php include('partials/menu.php'); ?>
 
 <div class="main">
-
   <div class="wrapper">
-
         <h1>Add Admin</h1>
 
               <?php
-
                       if(isset($_SESSION['add'])){
-
                         echo $_SESSION['add'];
                         unset ($_SESSION['add']);
-
                      }
-
               ?>
 
      <form action="" method="POST">
-
         <table class="tbl-addadmin">
 
             <tr>
@@ -43,7 +36,6 @@
             </tr>
 
         </table>
-
      </form>
   </div>
 </div>
@@ -60,14 +52,13 @@
             $username=$_POST['username'];
             $password=md5($_POST['password']);
 
-
             $sql = "INSERT INTO tbl_admin SET
             fullname='$fullname',
             username='$username',
             password='$password'
             ";
 
-           $res = mysqli_query($conn,$sql);
+            $res = mysqli_query($conn,$sql);
 
             if($res==TRUE){
                   $_SESSION['add'] = '<div class="success"> Admin Added Suscessfuly. </div>';

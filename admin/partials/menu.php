@@ -17,13 +17,9 @@
 
  </head>
 
-
  <body>
-
         <div class="menu text-center">
-
                 <div class="wrapper">
-
                     <ul>
 
                          <li><a href="index.php">home</a></li>
@@ -33,8 +29,6 @@
                          <li><a href="manage-order.php">order</a></li>
                          <li><a href="logout.php">logout</a></li>
                 
-                   </ul>
-                                
+                   </ul>               
                 </div>
-
         </div>

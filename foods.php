@@ -19,9 +19,7 @@
             <?php
 						
 						$sql = "SELECT * FROM foods WHERE active='Yes' ";
-
 						$res = mysqli_query($conn, $sql);
-
 						$count = mysqli_num_rows($res);
 
 						if($count>0){

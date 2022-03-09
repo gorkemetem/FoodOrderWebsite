@@ -10,23 +10,17 @@
                 if(isset($_GET['id'])){
 
                     $id = $_GET['id'];
-
                     $sql = "SELECT * FROM ordertbl WHERE id=$id";
-
                     $res = mysqli_query($conn, $sql);
-
                     $count = mysqli_num_rows($res);
 
                     if($count==1){
 
                         $row = mysqli_fetch_assoc($res);
-
                         $food = $row['food'];
                         $qty = $row['qty'];
                         $status = $row['status'];
                         $price = $row['price'];
-
-
 
                     }
                     else{

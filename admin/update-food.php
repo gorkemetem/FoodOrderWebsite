@@ -6,11 +6,8 @@
     if(isset($_GET['id'])){
 
         $id = $_GET['id'];
-
         $sql2 = "SELECT * FROM foods WHERE id=$id";
-
         $res2 = mysqli_query($conn, $sql2);
-
         $row2 = mysqli_fetch_assoc($res2);
 
         $title = $row2['title'];
@@ -96,9 +93,7 @@
                                 <?php 
                                     
                                     $sql = "SELECT * FROM tbl_category WHERE active = 'Yes' ";
-
                                     $res = mysqli_query($conn, $sql);
-
                                     $count = mysqli_num_rows($res);
 
                                     if($count>0){
@@ -177,9 +172,7 @@
 
                             $ext = end(explode('.', $image_name));
                             $image_name = 'Food-Name-'.rand(000,999).'.'.$ext;
-
                             $src_path = $_FILES['image']['tmp_name'];
-
                             $dest_path = "../images/food/".$image_name;
 
 

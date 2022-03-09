@@ -63,11 +63,8 @@
                                  <?php 
                                  
                                         $sql = "SELECT * FROM foods";
-
                                         $res = mysqli_query($conn, $sql);
-
                                         $count = mysqli_num_rows($res);
-
                                         $sn = 1;
 
                                         if($count>0){

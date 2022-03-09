@@ -29,9 +29,7 @@
 					<?php 
 					
 						$sql = "SELECT * FROM tbl_category WHERE active='Yes' AND featured='Yes' LIMIT 3";
-
 						$res = mysqli_query($conn, $sql);
-
 						$count = mysqli_num_rows($res);
 
 						if($count>0){
@@ -95,9 +93,7 @@
 						<?php
 						
 						$sql2 = "SELECT * FROM foods WHERE active='Yes' AND featured='Yes' LIMIT 6 ";
-
 						$res2 = mysqli_query($conn, $sql2);
-
 						$count2 = mysqli_num_rows($res2);
 
 						if($count2>0){

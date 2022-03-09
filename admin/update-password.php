@@ -63,7 +63,6 @@
 
 
                     $sql ="SELECT * FROM tbl_admin WHERE id=$id AND password = '$current_password'";
-
                     $res = mysqli_query($conn, $sql);
 
                     if($res==true){

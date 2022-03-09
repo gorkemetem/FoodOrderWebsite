@@ -1,18 +1,14 @@
 <?php include('partials/menu.php') ?>
 
 <div class="main">
-
     <div class="wrapper">
-
         <h1>Update Admin</h1>
         <br><br>
 
             <?php 
 
                     $id = $_GET['id'];
-
                     $sql = "SELECT * FROM tbl_admin WHERE id=$id";
-
                     $res = mysqli_query($conn, $sql);
 
 

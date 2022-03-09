@@ -2,7 +2,6 @@
 
     <div class="main">
         <div class="wrapper">
-
             <h1>Update Category</h1>
             <br><br>
 
@@ -11,11 +10,8 @@
                     if(isset($_GET['id'])){
                             
                         $id = $_GET['id'];
-
                         $sql = "SELECT * FROM tbl_category WHERE id=$id";
-
                         $res = mysqli_query($conn, $sql);
-
                         $count = mysqli_num_rows($res);
 
                         if($count==1){
@@ -136,11 +132,8 @@
 
                                     $ext = end(explode('.', $image_name));
                                     $image_name = 'Food_Category_'.rand(000,999).'.'.$ext;
-
                                     $source_path = $_FILES['image']['tmp_name'];
-
                                     $destination_path = "../images/category/".$image_name;
-
 
                                     $upload = move_uploaded_file($source_path, $destination_path);
 

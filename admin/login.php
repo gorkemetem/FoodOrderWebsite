@@ -1,6 +1,5 @@
 <?php include('../config/constans.php'); ?>
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -69,9 +68,7 @@
                    username = '$username' AND password = '$password'
                 ";
 
-
             $res = mysqli_query($conn, $sql);
-
             $count = mysqli_num_rows($res);
 
             if($count==1){

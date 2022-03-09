@@ -10,7 +10,6 @@ if(isset($_GET['id']) && isset($_GET['image_name'])){
     if($image_name != ""){
 
         $path = "../images/food/".$image_name;
-
         $remove = unlink($path);
 
         if($remove == false){

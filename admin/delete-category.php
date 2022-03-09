@@ -14,15 +14,12 @@
 
             if($remove==false){
                 $_SESSION['remove'] = "<div class='error'> Failed To Remove Category. </div>";
-
                 header('location:'.SITEURL.'/admin/manage-category.php');
-
                 die();
             }
         }
 
         $sql = "DELETE FROM tbl_category WHERE id=$id";
-
         $res = mysqli_query($conn, $sql);
 
         if($res==true){

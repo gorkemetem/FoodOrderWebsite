@@ -5,20 +5,15 @@
         if(isset($_GET['category_id'])){
 
             $category_id = $_GET['category_id'];
-
             $sql = "SELECT title FROM tbl_category WHERE id=$category_id";
-
             $res = mysqli_query($conn,$sql);
-
             $row = mysqli_fetch_assoc($res);
-
             $category_title = $row['title'];
 
         }
         else{
             header('location:'.SITEURL);
         }
-    
     
     ?>
 
@@ -38,9 +33,7 @@
             <?php
             
                 $sql2 = "SELECT * FROM foods WHERE categoryid=$category_id";
-
                 $res2 = mysqli_query($conn, $sql2);
-
                 $count2 = mysqli_num_rows($res2);
 
                 if($count2>0){

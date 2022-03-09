@@ -10,16 +10,13 @@
                 <?php
                 
                     $sql = "SELECT * FROM tbl_category WHERE active = 'Yes'";
-
                     $res = mysqli_query($conn, $sql);
-
                     $count = mysqli_num_rows($res);
 
                     if($count>0){
 
                         while($row=mysqli_fetch_assoc($res)){
 
-                            
                             $id = $row['id'];
 							$title = $row['title'];
 							$image_name = $row['image_name'];

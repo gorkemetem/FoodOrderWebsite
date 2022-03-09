@@ -23,9 +23,7 @@
                          <?php
                          
                             $sql ="SELECT * FROM tbl_category";
-
                             $res = mysqli_query($conn, $sql);
-
                             $count = mysqli_num_rows($res);
                          
                          ?>
@@ -40,9 +38,7 @@
                          <?php
                          
                           $sql2 = "SELECT * FROM foods";
-
                           $res2 = mysqli_query($conn, $sql2);
-
                           $count2 = mysqli_num_rows($res2);
                          
                          ?>
@@ -57,9 +53,7 @@
                          <?php
                          
                           $sql3 = "SELECT * FROM ordertbl";
-
                           $res3 = mysqli_query($conn, $sql3);
-
                           $count3 = mysqli_num_rows($res3);
                          
                          ?>
@@ -75,11 +69,8 @@
                          <?php
                          
                             $sql4 = "SELECT SUM(total) AS Total FROM ordertbl WHERE status='Delivered'";
-
                             $res4 = mysqli_query($conn, $sql4);
-
                             $row4 = mysqli_fetch_assoc($res4);
-
                             $total_revenue = $row4['Total'];
                          
                          ?>
